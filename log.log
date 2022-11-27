@@ -1,0 +1,179 @@
+
+> Task :compileJava
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+> Task :processResources NO-SOURCE
+> Task :classes
+
+> Task :TestMain.main()
+Matches are 347848 and 347848
+Results match:
+true
+Matches are 347465 and 347465
+Results match:
+true
+Matches are 346954 and 346954
+Results match:
+true
+Matches are 347760 and 347760
+Results match:
+true
+Matches are 346903 and 346903
+Results match:
+true
+Matches are 347393 and 347393
+Results match:
+true
+Matches are 347723 and 347723
+Results match:
+true
+Matches are 346377 and 346377
+Results match:
+true
+Matches are 347026 and 347026
+Results match:
+true
+Matches are 347466 and 347466
+Results match:
+true
+Average of built-in: 1437.2666666666669
+Average of generated: 918.46
+Matches are 166806 and 166806
+Results match:
+true
+Matches are 166440 and 166440
+Results match:
+true
+Matches are 167106 and 167106
+Results match:
+true
+Matches are 166259 and 166259
+Results match:
+true
+Matches are 166765 and 166765
+Results match:
+true
+Matches are 166703 and 166703
+Results match:
+true
+Matches are 166325 and 166325
+Results match:
+true
+Matches are 166643 and 166643
+Results match:
+true
+Matches are 165917 and 165917
+Results match:
+true
+Matches are 166707 and 166707
+Results match:
+true
+Average of built-in: 1503.78
+Average of generated: 1413.1533333333332
+Matches are 25568 and 25568
+Results match:
+true
+Matches are 25412 and 25412
+Results match:
+true
+Matches are 25304 and 25304
+Results match:
+true
+Matches are 25439 and 25439
+Results match:
+true
+Matches are 25478 and 25478
+Results match:
+true
+Matches are 25363 and 25363
+Results match:
+true
+Matches are 25347 and 25347
+Results match:
+true
+Matches are 25682 and 25682
+Results match:
+true
+Matches are 25305 and 25305
+Results match:
+true
+Matches are 25540 and 25540
+Results match:
+true
+Average of built-in: 1538.0466666666666
+Average of generated: 1683.72
+Matches are 6285 and 6285
+Results match:
+true
+Matches are 6182 and 6182
+Results match:
+true
+Matches are 6243 and 6243
+Results match:
+true
+Matches are 6172 and 6172
+Results match:
+true
+Matches are 6275 and 6275
+Results match:
+true
+Matches are 6308 and 6308
+Results match:
+true
+Matches are 6214 and 6214
+Results match:
+true
+Matches are 6128 and 6128
+Results match:
+true
+Matches are 6278 and 6278
+Results match:
+true
+Matches are 6151 and 6151
+Results match:
+true
+Average of built-in: 114.67333333333333
+Average of generated: 115.97333333333333
+Matches are 372105 and 372105
+Results match:
+true
+Matches are 370185 and 370185
+Results match:
+true
+Matches are 371109 and 371109
+Results match:
+true
+Matches are 370040 and 370040
+Results match:
+true
+Matches are 371320 and 371320
+Results match:
+true
+Matches are 371816 and 371816
+Results match:
+true
+Matches are 369986 and 369986
+Results match:
+true
+Matches are 371198 and 371198
+Results match:
+true
+Matches are 371088 and 371088
+Results match:
+true
+Matches are 370385 and 370385
+Results match:
+true
+Average of built-in: 2431.6066666666666
+Average of generated: 1051.8733333333334
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 33m 42s
+2 actionable tasks: 2 executed
