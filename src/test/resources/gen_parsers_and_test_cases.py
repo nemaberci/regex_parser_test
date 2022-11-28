@@ -18,12 +18,16 @@ with open("regexes.csv", "r") as file:
         new_file2.write("package hu.nemaberci.generator.parsertest;\n")
         new_file2.write("import hu.nemaberci.generator.parser.TestParser_" + str(created_files) + ";\n")
         new_file2.write("import hu.nemaberci.regex.container.RegexParserContainer;\n")
-        new_file2.write("import org.junit.Assert;\n")
+        new_file2.write("import org.junit.jupiter.api.Assertions;\n")
         new_file2.write("import org.junit.jupiter.api.Test;\n")
         new_file2.write("public class TestParser_" + str(created_files) + "_tester {\n")
         new_file2.write("    @Test\n")
         new_file2.write("    public void testParser1() {\n")
-        new_file2.write("        Assert.assertEquals(" + str(expected_results) + ", RegexParserContainer.getImplementation(TestParser_" + str(created_files) + ".class).findMatches(\"" + teststring + "\").getMatches().size());\n")
+        new_file2.write("        Assertions.assertEquals(" + str(expected_results) + ", RegexParserContainer.getImplementation(TestParser_" + str(created_files) + ".class).findMatches(\"" + teststring + "\").getMatches().size());\n")
+        if int(expected_results) > 0:
+            new_file2.write("        Assertions.assertTrue(RegexParserContainer.getImplementation(TestParser_" + str(created_files) + ".class).matches(\"" + teststring + "\"));\n")
+        else:
+            new_file2.write("        Assertions.assertFalse(RegexParserContainer.getImplementation(TestParser_" + str(created_files) + ".class).matches(\"" + teststring + "\"));\n")
         new_file2.write("    }\n")
         new_file2.write("}\n")
         new_file2.close()
