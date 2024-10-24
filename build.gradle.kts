@@ -36,8 +36,8 @@ dependencies {
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine")
     testImplementation("junit:junit:4.13.2")
     api("hu.nemaberci:regex-api:1.0")
-    testAnnotationProcessor("hu.nemaberci:code-gen:1.0.2")
-    annotationProcessor("hu.nemaberci:code-gen:1.0.2")
+    testAnnotationProcessor("hu.nemaberci:code-gen:1.0.3")
+    annotationProcessor("hu.nemaberci:code-gen:1.0.3")
 }
 
 tasks.getByName<Test>("test") {
